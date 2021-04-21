@@ -24,8 +24,7 @@ public class MySql02DataSource {
     @Bean(name = "test1DataSource")
     // 表示这个数据源是默认数据源
     @Primary
-    // 缀
-    @ConfigurationProperties(prefix = "spring.datasource.test1")
+    @ConfigurationProperties(prefix = "spring.datasource.test2")
     public DataSource getDateSource1() {
         return DataSourceBuilder.create().build();
     }

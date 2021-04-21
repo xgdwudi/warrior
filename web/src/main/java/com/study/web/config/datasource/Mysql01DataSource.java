@@ -21,7 +21,7 @@ import javax.sql.DataSource;
 @MapperScan(basePackages = "com.study.web.mapper.mapper01", sqlSessionFactoryRef = "test2SqlSessionFactory")
 public class Mysql01DataSource {
     @Bean(name = "test2DataSource")
-    @ConfigurationProperties(prefix = "spring.datasource.test2")
+    @ConfigurationProperties(prefix = "spring.datasource.test1")
     public DataSource getDateSource2() {
         return DataSourceBuilder.create().build();
     }
