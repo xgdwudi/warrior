@@ -81,11 +81,14 @@ redis的数据结构，键值，过期啥的
 
     
 
-#### Instructions
+#### webSocket 参考  [WebSocketChatServer](./web/src/main/java/com/study/web/web/WebSocketChatServer.java)
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  建立连接，每个用户都会去创建一个对象，并将其根据名字和对象放入到map对象中
+2.  保持连接，
+3.  发送消息，发送的消息会以json串的新式过来，使用aliba 的json的对象解析，从json串中取到信息，和发送人名字，根据发送人名字在从map中取到收件人对象，做信息发送，此为线程不安全，应该做以考虑，这儿也做了全部人聊天室，传回的json串中无用户信息，则做全部发送
+4.  注销连接 
+>  问题，数据未做存储，刷新页面会丢数据，用户断线后，数据如何缓存，以及用户上线后，数据如何推送到用户这边。(这边应该不涉及wenSocket,只需要去查数据库就行了吧，应该是)
+>  下次任务，完善前台单点页面，考量如何设计数据库缓存的用户信息表等
 
 #### Contribution
 

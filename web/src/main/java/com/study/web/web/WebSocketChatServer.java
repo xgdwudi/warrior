@@ -103,7 +103,6 @@ public class WebSocketChatServer {
         for (Map.Entry<String, Session> s: onlineSessions.entrySet()) {
             list.add(s.getKey());
         }
-
         return list;
     }
 }
