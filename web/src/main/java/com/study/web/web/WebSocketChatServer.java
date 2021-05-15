@@ -1,7 +1,7 @@
 package com.study.web.web;
 
 import com.alibaba.fastjson.JSON;
-import com.styduy.common.websocket.Message;
+import com.study.common.websocket.Message;
 import org.springframework.stereotype.Component;
 
 import javax.websocket.*;

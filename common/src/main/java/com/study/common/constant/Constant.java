@@ -1,4 +1,4 @@
-package com.styduy.common.constant;
+package com.study.common.constant;
 
 /**
  * 定义公共常量的接口

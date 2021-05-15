@@ -1,4 +1,4 @@
-package com.styduy.common.websocket;
+package com.study.common.websocket;
 
 import com.alibaba.fastjson.JSON;
 

@@ -1,4 +1,4 @@
-package com.styduy.common.constant;
+package com.study.common.constant;
 
 import lombok.Data;
 
@@ -30,6 +30,7 @@ public class Result<T> {
     private static Result create(int code,String message,Object data){
         Result result = new Result();
         result.setCode(code);
+        result.setMessage(message);
         result.setData(data);
         return result;
     }

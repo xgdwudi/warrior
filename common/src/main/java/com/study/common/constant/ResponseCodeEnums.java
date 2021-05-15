@@ -1,4 +1,4 @@
-package com.styduy.common.constant;
+package com.study.common.constant;
 
 import lombok.Getter;
 
