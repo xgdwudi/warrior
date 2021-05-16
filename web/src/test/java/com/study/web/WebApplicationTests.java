@@ -15,7 +15,7 @@ class WebApplicationTests {
     @Test
     void contextLoads() {
 //        Map selectbyid = friendsDao.selectbyid(1L);
-//        System.out.println(selectbyid);
+        System.out.println();
     }
 
 }
