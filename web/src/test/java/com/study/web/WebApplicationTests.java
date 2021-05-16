@@ -19,6 +19,7 @@ class WebApplicationTests {
         System.out.println("hello");
         System.out.println("hot-fix");
         System.out.println("master_01");
+        System.out.println("hot-fix02");
     }
 
 }
