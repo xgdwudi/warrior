@@ -17,6 +17,7 @@ class WebApplicationTests {
 //        Map selectbyid = friendsDao.selectbyid(1L);
         System.out.println();
         System.out.println("hello");
+        System.out.println("hot-fix");
     }
 
 }
